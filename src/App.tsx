@@ -2,7 +2,7 @@ function App() {
 
   return (
     <>
-        
+      <p className="bg-error">hello</p>
     </>
   )
 }

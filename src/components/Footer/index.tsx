@@ -7,13 +7,13 @@ export const Footer = () => {
   return (
     <footer className="bg-footer-bg">
       <div className="container">
-        <div className="flex flex-col lg:flex-row justify-between py-10 px-2 gap-2">
-          <div className="flex flex-col gap-2 8 min-w-86"></div>
-          <SubscriptionForm />
-
-          <SocialLinks />
+        <div className="flex flex-col lg:flex-row justify-between gap-2 py-10 px-2">
+          <div className="flex flex-col gap-8 min-w-86">
+            <SubscriptionForm />
+            <SocialLinks />
+          </div>
+          <MenuItems />
         </div>
-        <MenuItems />
       </div>
       <Copyright />
     </footer>
